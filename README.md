@@ -86,15 +86,26 @@ llmwiki-template/
 
 ### 3. 页面编写规范
 
-每个 Wiki 页面需包含 YAML Frontmatter：
+所有知识库页面必须包含以下 frontmatter：
 
 ```yaml
 ---
+title: 页面标题
+tags: [标签1, 标签2]
+source: raw/xxx.md  # 仅用于源摘要页面；概念/实体页面省略或注明来源
+created: 2026-xx-xx
+updated: 2026-xx-xx
 status: draft/reviewed
-tags: []
-related: []
 ---
 ```
+
+| 类型 | 位置 | 内容 |
+|------|----------|---------|
+| 概念页 | wiki/concepts/ | 定义、原理、关联关系 |
+| 实体页 | wiki/entities/ | 人物/工具/项目信息与关系 |
+| 源摘要页 | wiki/sources/ | 与 raw 文件一一对应，提炼核心要点 |
+
+
 
 ## 模板说明
 
