@@ -1,0 +1,32 @@
+# Obsidian 工作区缓存（自动生成，无需提交）
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/starred.json
+
+# 插件数据（本地安装的插件，不提交）
+#.obsidian/plugins/
+.obsidian/plugins/*/data.json
+.obsidian/themes/
+
+# LLM / AI 插件生成的临时文件
+llm-temp/
+ai-output/
+tmp-*.md
+temp-*.md
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# 日志、导出文件
+logs/
+*.log
+export/
+dist/
+
+# 私有/敏感笔记（可自行添加）
+#private/
+#drafts/
