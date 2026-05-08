@@ -19,8 +19,6 @@
 │   ├── sources/           # 源摘要页面（与 raw 文件一一对应）
 │   ├── index.md           # 知识库概览与导航
 │   └── log.md             # 智能体活动日志
-├── copilot/               # Copilot 配置
-│   └── system-prompts.md  # Copilot 系统提示
 └── AGENT.md              # 原始中文智能体规则
 ```
 
