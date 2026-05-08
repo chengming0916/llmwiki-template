@@ -29,13 +29,13 @@
 ```
 llmwiki-template/
 ├── AGENTS.md              # 智能体指南
-├── README.md               # 项目说明
+├── README.md              # 项目说明
 ├── raw/                   # Raw 层 - 原始数据
 │   ├── articles/          # 原始文章
 │   ├── assets/            # 资源文件
 │   ├── notes/             # 原始笔记
 │   └── papers/            # 论文资料
-├── templates/             # 知识页面模板
+├── templates/            # 知识页面模板
 │   ├── article-template.md
 │   ├── concept-template.md
 │   ├── entity-template.md
@@ -104,8 +104,6 @@ status: draft/reviewed
 | 概念页 | wiki/concepts/ | 定义、原理、关联关系 |
 | 实体页 | wiki/entities/ | 人物/工具/项目信息与关系 |
 | 源摘要页 | wiki/sources/ | 与 raw 文件一一对应，提炼核心要点 |
-
-
 
 ## 模板说明
 
