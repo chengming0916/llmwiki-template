@@ -14,6 +14,7 @@ llm-temp/
 ai-output/
 tmp-*.md
 temp-*.md
+.claudian
 
 # 系统垃圾文件
 .DS_Store
