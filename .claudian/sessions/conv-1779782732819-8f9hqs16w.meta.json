@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779782732819-8f9hqs16w",
+  "providerId": "claude",
+  "title": "Generate directory rules file",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779782732821,
+  "updatedAt": 1779782772574,
+  "lastResponseAt": 1779782772574,
+  "sessionId": "450e30aa-431d-4957-826f-daea67c9a0c2",
+  "providerState": {
+    "providerSessionId": "450e30aa-431d-4957-826f-daea67c9a0c2"
+  },
+  "currentNote": "AGENTS.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 6594,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 21120,
+    "contextWindow": 200000,
+    "contextTokens": 27714,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": true
+  }
+}
