@@ -8,5 +8,6 @@
   "attachmentFolderPath": "./",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "strictLineBreaks": true
 }
