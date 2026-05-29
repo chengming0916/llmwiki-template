@@ -101,6 +101,13 @@ status: draft/reviewed
 | 页面标题 | 中文、描述性 | `智慧校园方案设计` |
 | 文件路径 | 与标题一致 | `wiki/concepts/双向链接.md` |
 
+### 文件命名规范（raw/ 目录）
+
+- **Slug 格式**：小写字母、数字、中划线（`a-z`, `0-9`, `-`）
+- **示例**：`karpathy-llm-wiki-obsidian.md`、`openclaw-deployment-guide.md`
+- **禁止**：空格、中文标点、`+`、`?` 等特殊字符
+- **已有特殊字符文件**：创建 `raw/slug-mapping.md` 映射表后重命名
+
 ## 快速开始
 
 ### 1. 环境配置

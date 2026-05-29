@@ -150,6 +150,43 @@ status: draft/reviewed
 
 ---
 
+## 文件命名规范
+
+### 原则
+
+- **Slug 格式**：使用小写字母、数字、中划线（`a-z`, `0-9`, `-`）
+- **语义化**：文件名应反映内容主题
+- **避免特殊字符**：不使用空格、中文标点、`+`、`?` 等
+
+### 示例
+
+| 内容 | 正确命名 | 错误命名 |
+|------|----------|----------|
+| Karpathy LLM Wiki 文章 | `karpathy-llm-wiki-obsidian.md` | `读完 Karpathy 的...md` |
+| Claude Code 部署指南 | `openclaw-deployment-guide.md` | `OpenClaw 完全部署指南.md` |
+| 会议纪要 2026-05 | `meeting-2026-05-29.md` | `5月29日会议纪要.md` |
+
+### 批量重命名
+
+如已有含特殊字符的文件，执行以下步骤：
+
+1. **创建映射表**：`raw/slug-mapping.md` 记录原名 → slug
+2. **执行重命名**：按映射表批量重命名
+3. **更新引用**：修改 frontmatter 中的 source 字段
+
+### 映射表格式
+
+```markdown
+# 文件名映射表
+
+| 原文件名 | slug | 日期 | 备注 |
+|---------|------|------|------|
+| 读完 Karpathy 的 LLM Wiki... | karpathy-llm-wiki-obsidian | 2026-05-28 | |
+| OpenClaw 完全部署指南... | openclaw-deployment-guide | 2026-05-28 | |
+```
+
+---
+
 ## 命名约定
 
 | 类型 | 规范 | 示例 |
