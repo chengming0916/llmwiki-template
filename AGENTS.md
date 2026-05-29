@@ -38,9 +38,18 @@
 
 ```
 ./
-├── raw/                    # 人类原始素材（只读不修改）
-│   ├── articles/           # 收集的文章
-│   ├── clippers/           # 剪藏内容（网页剪藏工具）
+├── AGENTS.md              # 智能体核心规则
+├── CLAUDE.md              # Claude Code 入口文件
+├── README.md              # 项目说明
+├── templates/             # 知识页面模板
+│   ├── article-template.md
+│   ├── concept-template.md
+│   ├── entity-template.md
+│   ├── note-template.md
+│   ├── paper-template.md
+│   └── source-template.md
+├── raw/                   # 人类原始素材（只读不修改）
+│   ├── articles/          # 收集的文章、剪藏内容
 │   ├── notes/             # 项目笔记、会议纪要、设计文档
 │   ├── papers/            # 研究论文
 │   └── assets/            # 图片、附件
@@ -51,7 +60,6 @@
 │   ├── analysis/          # 对比分析或综合判断
 │   ├── index.md           # 知识库概览与导航
 │   └── log.md             # 智能体活动日志
-└── CLAUDE.md              # Claude Code 入口文件
 ```
 
 ---

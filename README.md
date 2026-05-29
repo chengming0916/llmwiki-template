@@ -29,8 +29,7 @@ llmwiki-template/
 ├── CLAUDE.md              # Claude Code 入口文件
 ├── README.md              # 项目说明
 ├── raw/                   # Raw 层 - 原始数据（只读不修改）
-│   ├── articles/          # 原始文章
-│   ├── clippers/          # 剪藏内容（网页剪藏工具）
+│   ├── articles/          # 收集的文章、剪藏内容
 │   ├── assets/            # 资源文件
 │   ├── notes/             # 原始笔记
 │   └── papers/            # 论文资料
